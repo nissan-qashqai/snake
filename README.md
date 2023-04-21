@@ -2,4 +2,4 @@
 
 ## A little snake friend 🐍
 
-- Main file [file](snape.py)
+- Main file [file](snake.py)
