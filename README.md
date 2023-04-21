@@ -1,4 +1,4 @@
-# snake
+# Python snake game
 
 ## A little snake friend 🐍
 
