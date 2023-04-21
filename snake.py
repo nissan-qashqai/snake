@@ -171,4 +171,4 @@ new_turn()
 
 
 w.mainloop()
-#made by ne_sama 
+#made by nissan-qashqai
