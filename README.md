@@ -2,4 +2,6 @@
 
 ## A little snake friend 🐍
 
-- Main file [file](snake.py)
+- Main file: [snake.py](snake.py)
+
+- EXE version [(if you trust me, you can play)](snake.exe)
