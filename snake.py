@@ -94,8 +94,8 @@ class food:
         del self.food_list[-1]
 
     def create(self):
-        self.x = random.randint(snakeDefaultParts+ 5,  screenWidth/ spaceWidth-1)
-        self.y = random.randint(2,  screenHeight/ spaceWidth-1)
+        self.x = random.randint(snakeDefaultParts+ 5,  (screenWidth// spaceWidth)-1)
+        self.y = random.randint(2,  (screenHeight// spaceWidth)-1)
         if not ([self.y,self.x] in _snake.cordinates):
             food = c.create_rectangle(self.x*spaceWidth + 2, self.y*spaceWidth + 2, (self.x+1)*spaceWidth -2, (self.y+1)*spaceWidth -2 , fill=self.color)
             self.food_list.insert(0,food)
